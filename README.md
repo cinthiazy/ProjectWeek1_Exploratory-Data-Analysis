@@ -5,3 +5,11 @@ This assignment uses data from the UC Irvine Machine Learning Repository, a popu
 **Dataset:** Electric power consumption <http://archive.ics.uci.edu/ml/index.php>
 
 **Description:**  Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. Different electrical quantities and some sub-metering values are available.
+
+### ** PLOT N1**
+
+### **Uploading the data**
+```{r echo=TRUE}
+setwd("E:/CURSOS/EspecializacionDataScience-JH/ExploratoryDataAnalysis-Coursera/Week1/Evaluacion");
+datos<- read.table("household_power_consumption.txt", header = TRUE, sep = ";");
+head(datos);
